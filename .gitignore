@@ -1,0 +1,21 @@
+# Local terraform directories
+**/.terraform/*
+
+# .tfstate files (These should be in your GCS bucket, not GitHub)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore any local secret files
+*.json
+*.p12
+
+# Ignore plan files (they can contain secrets)
+*.tfplan
+*.tfplan_v2
+
+# Windows/MacOS system files
+.DS_Store
+Thumbs.db
